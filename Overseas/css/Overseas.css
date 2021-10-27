@@ -1,0 +1,546 @@
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+	background: #CCCCCC;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+	background: #E50012;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+
+.section {
+	width: calc(100% - 180px);
+	margin-left: 180px;
+}
+
+.section {
+	position: relative;
+}
+
+.section>div {
+	padding: 60px;
+	box-sizing: border-box;
+}
+
+.section>div .title h3 {
+	font-size: 26px;
+	font-weight: normal;
+	color: #333;
+}
+
+.section>div .title span {
+	font-size: 14px;
+	color: #bfbfbf;
+}
+
+.section .section-1 {
+	width: calc(100% - 180px);
+	height: 100vh;
+	background: url(../../img/overseas/fu_banner1.jpg) no-repeat center center;
+	background-size: cover;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	padding: 0;
+}
+
+.section .section-1 .section1-title {
+	position: absolute;
+	top: 50%;
+	left: 80px;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+.section .section-1 .section1-title h2 {
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.section .section-1 .section1-title span {
+	font-size: 30px;
+	opacity: 0.4;
+	display:block;
+}
+
+.section .section-1 .section1-title p {
+	padding: 15px;
+	margin-top: 10px;
+	font-size: 20px;
+	background-color: #e50012;
+}
+
+.section .section1-hint {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 16px;
+	color: #fff;
+}
+
+.section .section1-hint span {
+	width: 20px;
+	height: 10px;
+	display: block;
+	background: url(../../img/overseas/scroll_down.png) no-repeat left top;
+	margin: 0 auto;
+	opacity: 0;
+}
+
+
+.section .section1-hint span:nth-of-type(1) {
+	animation: firstSpan 1s infinite;
+	margin-top: 10px;
+}
+
+.section .section1-hint span:nth-of-type(2) {
+	animation: SecondSpan 1s infinite;
+}
+
+.section .section1-hint span:nth-of-type(3) {
+	animation: ThirdSpan 1s infinite;
+}
+
+@keyframes firstSpan {
+	0% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: .3;
+	}
+
+	40% {
+		opacity: .3;
+	}
+
+	90% {
+		opacity: .3;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes SecondSpan {
+	0% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: .3;
+	}
+
+	60% {
+		opacity: .5;
+	}
+
+	90% {
+		opacity: .5;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes ThirdSpan {
+	0% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 0.2;
+	}
+
+	50% {
+		opacity: 0.6;
+	}
+
+	90% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.now-location {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 60px;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.2);
+	text-align: right;
+	font-size: 12px;
+	color: #fff;
+}
+
+.now-location i {
+	background: url(../../img/overseas/common_icon3.png) no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	margin-bottom: -2px;
+}
+
+.now-location a {
+	color: #fff;
+}
+
+.section-2 {
+	margin-top: 100vh;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-2 .section2-content {
+	width: 50%;
+}
+
+.section-2 .section2-content p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+	padding-top: 5%;
+}
+
+.section-2 .section2-right {
+	text-align: center;
+	width: 40%;
+}
+
+.section-2 .section2-right img {
+	display: block;
+	width: 100%;
+}
+
+.section-3 {
+	background: #F7F7F7;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-3 .title {
+	min-width: 200px;
+}
+.section-3 .section3-content {
+	width:70%;
+}
+.section-3 .section3-content p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.section .section-4 {
+	width: 100%;
+	padding: 0;
+}
+
+.section .section-4 ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section .section-4 ul li {
+	width: 25%;
+	overflow: hidden;
+	position: relative;
+}
+
+.section .section-4 ul li .li-bg {
+	width: 100%;
+}
+
+.section .section-4 ul li .li-bg img {
+	width: 100%;
+	display: block;
+}
+
+.section .section-4 ul li .li-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 0 15px;
+	box-sizing: border-box;
+	background: rgba(50, 50, 50, 0.3);
+	transition:0.4s;
+}
+.section .section-4 ul li:hover .li-content{
+	background:rgba(225,0,0,0.6);
+}
+.section .section-4 ul li .li-content div {
+	position: absolute;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	top: 50%;
+	left: 0;
+	transform:translateY(-50%);
+}
+
+
+.section .section-4 ul li .li-content div h3 {
+	font-size: 18px;
+	font-weight: normal;
+	position: relative;
+	color:#FFFFFF;
+}
+
+.section .section-4 ul li .li-content div h3::before {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	transform: translateX(-50%);
+	background: #fff;
+}
+
+.section .section-4 ul li .li-content div P {
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	color:#FFFFFF;
+	
+}
+
+.section .section-5{
+	background:url(../../img/overseas/hw_bg1.png) no-repeat center center,#fff;
+}
+.section .section-5 ul{
+	display:flex;
+	padding-top:5%;
+}
+.section .section-5 ul li{
+	width:20%;
+	padding:20px;
+	text-align:center;
+	transition:0.5s;
+}
+.section .section-5 ul li i{
+	display:block;
+	width:85px;
+	height:85px;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+.section .section-5 ul li i img{
+	transform:scale(0.7);
+}
+.section .section-5 ul li h3{
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+.section .section-5 ul li p{
+	font-size:12px;
+	line-height:20px;
+}
+.section .section-5 ul li:hover{
+	transform:translateY(-10px);
+}
+
+
+
+
+.section-6 {
+	width: 100%;
+	background: #F7F7F7;
+}
+.section-6 .title{
+	padding-bottom:25px;
+	border-bottom:1px solid #E6E6E6;
+}
+.section-6 p{
+	font-size:14px;
+	line-height:24px;
+	margin-top:18px;
+	margin-bottom:20px;
+}
+.section-6 .section6-client {
+	width: 100%;
+}
+
+.section-6 .section6-client ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section-6 .section6-client ul li {
+	width: 14.666%;
+	margin: 1%;
+	position: relative;
+	cursor: pointer;
+	background:#FFFFFF;
+}
+
+.section-6 .section6-client ul li .imgBg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 60px;
+	z-index: 2;
+	background: #e50012;
+	color: #FFFFFF;
+	font-size: 14px;
+	box-shadow: 0px 2px 20px rgba(225, 0, 0, 0.6);
+	transition: 0.8s;
+	opacity: 0;
+}
+
+.section-6 .section6-client ul li:hover .imgBg {
+	opacity: 1;
+}
+
+.section-6 .section6-client ul li .logo {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #E6E6E6;
+}
+
+.section-6 .section6-client ul li .logo img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	max-width: 90%;
+	max-height: 90%;
+}
+
+@media screen and (max-width:992px) {
+	.section {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.section .section-1 {
+		left: 0;
+		width: 100%;
+	}
+
+	.section>div {
+		padding: 5%;
+	}
+
+	.section-1 {
+		width: 100% !important;
+		left: 0;
+	}
+
+	.title h3 {
+		font-size: 20px !important;
+
+	}
+
+	.section .section-1 .section1-title {
+		left: 50px;
+		margin-right: 50px;
+	}
+
+	.section .section-1 .section1-title h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.section .section-1 .section1-title span {
+		font-size: 20px
+	}
+
+	.section .section-1 .section1-title p {
+		font-size: 16px
+	}
+
+	.section-2 {
+		display: block;
+	}
+
+	.section-2>div {
+		width: 100% !important;
+	}
+
+	.section-2 .section2-content p {
+		padding-top: 2%;
+	}
+
+	.section-2 .section2-right {
+		padding-top: 3%;
+	}
+	.section-3 {
+		display: block;
+	}
+	.section-3 .section3-content{
+		width:100%!important;
+		margin-top:15px;
+	}
+	.section .section-4 ul li{
+		width:50%;
+	}
+	.section .section-4 ul li h3{
+		font-size:16px!important;
+	}
+	.section .section-4 ul li p{
+		font-size:14px!important;
+	}
+	.section .section-5 ul{
+		flex-wrap: wrap;
+	}
+	.section .section-5 ul li i{
+		margin:0!important;
+	}
+	.section .section-5 ul li{
+		width:100%;
+		display:flex;
+		text-align:left;
+		padding:0;
+	}
+	.section .section-5 ul li div{
+		margin-top:10px;
+		margin-left:10px;
+	}
+	.section-6 .section6-client ul li{
+		width:48%;
+	}
+}
