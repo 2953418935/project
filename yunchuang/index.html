@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>云创搜索工作室-专业的搜索优化技术工作室</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/index.css" rel="stylesheet" />
+		<link href="css/bass.css" rel="stylesheet" />
+		<!-- <link href="css/animate.min.css" rel="stylesheet" /> -->
+		<link href="css/swiper.css" rel="stylesheet" />
+		<link href="css/fullpage.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/bruce.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- 头部导航开始 -->
+		<div class="header" id="header">
+			<div class="box-header">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.png" /></a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li class="active"><a href="index.html" title="首页">首页</a></li>
+						<li><a href="seoServer/index.html" title="SEO服务">SEO服务</a></li>
+						<li><a href="marketing/index.html" title="网络营销">网络营销</a></li>
+						<li><a href="seoOptimize/index.html" title="SEO优化">SEO优化</a></li>
+						<li><a href="construction/index.html" title="网站建设">网站建设</a></li>
+						<li><a href="about/index.html" title="关于创云">关于创云</a></li>
+						<li><a href="relation/index.html" title="联系我们">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="none nav-none nav" id="nav" style="z-index: 1000;">
+					<ul>
+						<li class="active"><a href="index.html" title="首页">首页</a></li>
+						<li><a href="seoServer/index.html" title="SEO服务">SEO服务</a></li>
+						<li><a href="marketing/index.html" title="网络营销">网络营销</a></li>
+						<li><a href="seoOptimize/index.html" title="SEO优化">SEO优化</a></li>
+						<li><a href="construction/index.html" title="网站建设">网站建设</a></li>
+						<li><a href="about/index.html" title="关于创云">关于创云</a></li>
+						<li><a href="relation/index.html" title="联系我们">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="none menu" id="menu" onclick="show()">
+					<span class="icon" id="aa"></span>
+					<span class="icon" id="bb"></span>
+					<span class="icon" id="cc"></span>
+				</div>
+			</div>
+			<div class="box none" id="box"></div>
+		</div>
+
+
+		<!-- 头部导航结束 -->
+
+		<!-- 侧边栏开始 -->
+		<div class="aside" id="aside">
+			<ul>
+				<li>
+					<a href="seoServer/index.html" target="_blank" title="优化"><img src="img/057.png" />优化</a>
+				</li>
+				<li>
+					<a id="refer" href="##" title="建站在线客服">
+						<div>
+							<span class="one"></span>
+							<span class="two"></span>
+							<span class="three"></span>
+						</div>
+						<img src="img/059.png" />咨询
+					</a>
+				</li>
+				<li>
+					<a href="marketing/index.html" title="营销"><img src="img/060.png" />营销</a>
+				</li>
+			</ul>
+			<div class="off" id="off" onclick="menuOff()"></div>
+			<div class="on" id="on" onclick="menuOn()"></div>
+		</div>
+		<div class="popup" id="popup">
+			<div class="title">
+				<h2>
+					<span>RELATEED CONSULTING</span><br />
+					相关咨询
+				</h2>
+			</div>
+			<div class="pop-cent">
+				<h3>选择下列产品马上在线沟通</h3>
+				<ul>
+					<li>
+						<a href="https://wpa.qq.com/msgrd?v=3&uin=1007091804&site=qq&menu=yes" target="_blank" title="SEO优化咨询">SEO优化咨询</a>
+					</li>
+					<li>
+						<a href="https://wpa.qq.com/msgrd?v=3&uin=1007091804&site=qq&menu=yes" target="_blank" title="网站建设咨询">网站建设咨询</a>
+					</li>
+					<li>
+						<a href="https://wpa.qq.com/msgrd?v=3&uin=1007091804&site=qq&menu=yes" target="_blank" title="定制服务咨询">定制服务咨询</a>
+					</li>
+					<p>
+						服务时间：9:30-18:00
+					</p>
+				</ul>
+				<div class="pop-close" id="pop-close">
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<h3>你可能遇到了下面的问题</h3>
+			<ul>
+				<li>
+					<a href="marketing/navtext/index - 1.html" title="开发App的5个基本步骤">开发App的5个基本步骤</a>
+				</li>
+				<li>
+					<a href="marketing/navtext/index - 2.html" title="手机App的发展前景展望">手机App的发展前景展望</a>
+				</li>
+				<li>
+					<a href="marketing/navtext/index - 3.html" title="网站制作从原型图架构到设计开发的具体步骤">网站制作从原型图架构到设计开发的具体步骤</a>
+				</li>
+				<li>
+					<a href="marketing/navtext/index - 4.html" title="站长必看网站建设系统选择知识">站长必看网站建设系统选择知识</a>
+				</li>
+				<li>
+					<a href="marketing/navtext/index - 5.html" title="高端网站建设必须要满足哪些要求">高端网站建设必须要满足哪些要求</a>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="goto" id="goto">
+			<span>Top</span>
+		</div>
+		<!-- 侧边栏结束 -->
+		<!-- 轮播图开始 -->
+		<div class="banner">
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div>
+							<h2>搜索引擎优化专业工作室</h2>
+							<p>为企业完善搜索引擎品牌体系，优化自然排名和正面信息</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div>
+							<h2>主流三合一响应式网站</h2>
+							<p>一个网站就能自动适应PC端+平板端+手机端使用</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div>
+							<h2>为企业所想 满足企业需求</h2>
+							<p>升级以您的需求为导向,提升以您的价值为目标</p>
+						</div>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<script src="js/swiper.js"></script>
+		<script src="js/banner.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				keyboard: true,
+				virtualTranslate: true,
+				on: {
+					setTranslate: function() {
+						this.$wrapperEl.transition('')
+						TweenMax.to(this.$wrapperEl, 1.5, {
+							x: this.translate,
+							ease: Power4.easeOut
+						})
+
+					}
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+			});
+		</script>
+		<!-- 轮播图结束 -->
+
+		<!-- 我们的产品开始 -->
+		<div class="product">
+			<div class="wow bounceInDown" data-wow-offset="200">
+				<h3 class="btn">我们的产品</h3>
+				<span class="btns">OUR PRODUCT</span>
+			</div>
+			<ul>
+				<li title="响应式企业网站建设" class="wow bounceInDown" data-wow-offset="200">
+					<img src="img/045.png" />
+					<h4>企业官网</h4>
+					<span>Enterprise's official website</span>
+				</li>
+				<li title="响应式商城网站建设" class="wow rollIn" data-wow-offset="200">
+					<img src="img/046.png" />
+					<h4>搜索优化</h4>
+					<span>Search optimization</span>
+				</li>
+				<li title="空间域名" class="wow aleft" data-wow-offset="200">
+					<img src="img/047.png" />
+					<h4>空间域名</h4>
+					<span>Spatial domain</span>
+				</li>
+				<li title="生态级行业门户" class="wow bounceInDown" data-wow-offset="200">
+					<img src="img/048.png" />
+					<h4>行业门户</h4>
+					<span>Industry portal</span>
+				</li>
+				<li title="H5三合一网站" class="wow rollIn" data-wow-offset="200">
+					<img src="img/049.png" />
+					<h4>搜索品牌建设</h4>
+					<span>Search brand building</span>
+				</li>
+				<li title="生态级响应式全网营销平台" class="wow aleft" data-wow-offset="200">
+					<img src="img/050.png" />
+					<h4>拉新获客</h4>
+					<span>The new guest</span>
+				</li>
+
+			</ul>
+		</div>
+		<!-- 我们的产品结束 -->
+
+		<!-- 为什么选择我们开始 -->
+		<div class="choose-box">
+			<div class="bruce">
+				<ul class="bubble-bgwall">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="choose">
+				<div class="wow bounceInUp" data-wow-offset="200">
+					<h3 class="btn">为什么选择我们</h3>
+					<span class="btns">WHY CHOOSE US</span>
+				</div>
+				<ul>
+					<li class="wow chleft" data-wow-offset="200">
+						<img src="img/008.png" />
+						<div>
+							<h4>SEO优化</h4>
+							<p>
+								<span>在业界拥有良好的信誉度和SEO口碑</span>
+								<span>专属SEO顾问会制定全年流量增长策略</span>
+							</p>
+						</div>
+					</li>
+					<li class="wow pulse" data-wow-offset="200" data-wow-duration="0.28s" data-wow-iteration="2">
+						<img src="img/009.png" />
+						<div>
+							<h4>SEO技术</h4>
+							<p>
+								<span>提升整站权重等级</span>
+								<span>对搜索引擎算法排名机制深入研究</span>
+							</p>
+						</div>
+					</li>
+					<li class="wow chright" data-wow-offset="200">
+						<img src="img/010.png" />
+						<div>
+							<h4>SEO实力</h4>
+							<p>
+								<span>9年SEO研究，8年品牌服务客户3万+</span>
+								<span>SEO管理系统实时监控排名变化</span>
+							</p>
+						</div>
+					</li>
+					<li class="wow chleft" data-wow-offset="200">
+						<img src="img/011.png" />
+						<div>
+							<h4>快速建站</h4>
+							<p>
+								<span>打破传统网站制作工时</span>
+							</p>
+						</div>
+					</li>
+					<li class="wow pulse" data-wow-offset="200" data-wow-duration="0.28s" data-wow-iteration="2">
+						<img src="img/012.png" />
+						<div>
+							<h4>多合一终端使用</h4>
+							<p>
+								<span>PC+平板+手机完美响应展示</span>
+							</p>
+						</div>
+					</li>
+					<li class="wow chright" data-wow-offset="200">
+						<img src="img/013.png" />
+						<div>
+							<h4>高端设计</h4>
+							<p>
+								<span>主流设计风格，极致交互体验</span>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="carousel wow pulse" data-wow-offset="200" data-wow-duration="0.28s" data-wow-iteration="2">
+				<div class="pc-car">
+					<div class="pc">
+						<img src="img/015.png" />
+						<div class="pc-box">
+							<div class="car-box">
+								<img src="img/0511.jpg" />
+								<img src="img/0512.jpg" />
+								<img src="img/0513.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ipad-car">
+					<div class="ipad">
+						<img src="img/017.png" />
+						<div class="ipad-box">
+							<div class="car-box">
+								<img src="img/0521.jpg" />
+								<img src="img/0522.jpg" />
+								<img src="img/0523%20(1).jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="phicon-car">
+					<div class="phicon">
+						<img src="img/016.png" />
+						<div class="phicon-box">
+							<div class="car-box">
+								<img src="img/0531.jpg" />
+								<img src="img/0532.jpg" />
+								<img src="img/0533.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dot">
+					<ul>
+						<li class="dot-icon"></li>
+						<li class="dot-icon"></li>
+						<li class="dot-icon"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 为什么选择我们结束 -->
+
+		<!-- 网络营销开始 -->
+		<div class="box-marketing">
+			<div class="marketing ">
+				<div class="wow bounceInUp" data-wow-offset="200">
+					<h3 class="btn">网络营销</h3>
+					<span class="btns">NETWORK MARKETING</span>
+				</div>
+				<ul id="mark-ul">
+					<li class="wow li-act">
+						<img src="img/019.jpg" />
+					</li>
+					<li>
+						<img class="li-img" src="img/019.jpg" />
+						<div class="wow li-act" data-wow-offset="200">
+							<h4>百度下拉<span><img src="img/020.png" /></span></h4>
+							<p>下拉框的词条能起到很好的引导作用，增加曝光率，提升品牌影响力</p>
+						</div>
+						<div class="wow li-act" data-wow-offset="200">
+							<h4>软文推广<span><img src="img/023.png" /></span></h4>
+							<p>覆盖面广，且可二次转发，宣传效果好，持久性长</p>
+						</div>
+					</li>
+					<li>
+						<img class="li-img" src="img/019.jpg" />
+						<div class="wow li-act" data-wow-offset="200">
+							<h4>百科词条<span><img src="img/021.png" /></span></h4>
+							<p>百科象征着权威，可以提高企业品牌的发展，提高品牌知名度</p>
+						</div>
+						<div class="wow li-act" data-wow-offset="200">
+							<h4>网站托管<span><img src="img/024.png" /></span></h4>
+							<p>持续获得网站维护、网站排名，降低企业网站运营成本</p>
+						</div>
+					</li>
+					<li>
+						<img class="li-img" src="img/019.jpg" />
+						<div class="wow li-act" data-wow-offset="200">
+							<h4>口碑建设<span><img src="img/022.png" /></span></h4>
+							<p>宣传费用低、可信度高、针对人群准确、提升企业形象</p>
+						</div>
+						<div class="wow li-act" data-wow-offset="200">
+							<h4>负面处理<span><img src="img/025.png" /></span></h4>
+							<p>全面而有效的应对企业公关危机，提升企业品牌形象</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 网络营销结束 -->
+
+		<!-- SEO教程开始 -->
+		<div class="SEO-tutorial">
+			<div class="wow bounceInUp" data-wow-offset="200">
+				<h3 class="btn">SEO教程</h3>
+				<span class="btns">SEO tutorial</span>
+			</div>
+			<div class="SEO-box">
+				<div class="wow tutorial" data-wow-offset="200" data-wow-duration="2s">
+					<div class="seo-img">
+						<img src="img/034.jpg" />
+					</div>
+					<h4>SEO优化教程</h4>
+					<ul>
+						<li>
+							<a href="seoOptimize/navstext/index - 1.html" title="企业网站应该多长时间备份一次？">企业网站应该多长时间备份一次？</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 2.html" title="如何选择网站关键词？">如何选择网站关键词？</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 4.html" title="企业建站选择主机和产品服务遇到的问题">企业建站选择主机和产品服务遇到的问题</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 5.html" title="企业用网站进行网络宣传的优势">企业用网站进行网络宣传的优势 </a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 6.html" title="什么是伪静态？伪静态有何作用？哪种好？">什么是伪静态？伪静态有何作用？哪种好？ </a>
+							<span>10-01</span>
+						</li>
+					</ul>
+				</div>
+				<div class="wow technology" data-wow-offset="200" data-wow-duration="1.2s">
+					<div class="seo-img">
+						<img src="img/035.jpg" />
+					</div>
+					<h4>SEO优化技术</h4>
+					<ul>
+						<li>
+							<a href="seoOptimize/navstext/index - 7.html" title="如何充分发挥SEO功能">如何充分发挥SEO功能</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 8 .html" title="SEO怎么加快文章的收录速度">SEO怎么加快文章的收录速度</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 10.html" title="SEO快速排名算法">SEO快速排名算法</a>
+							<span>10-01</span>
+						</li>
+					</ul>
+				</div>
+				<div class="wow optimize" data-wow-offset="200" data-wow-duration="2s">
+					<div class="seo-img">
+						<img src="img/036.jpg" />
+					</div>
+					<h4>SEO整站优化</h4>
+					<ul>
+						<li>
+							<a href="seoOptimize/navstext/index - 12.html" title="SEO网站的基本术语">SEO网站的基本术语</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 9.html" title="企业建站系统有何优势？">企业建站系统有何优势？</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 6.html" title="什么是伪静态？伪静态有何作用?">什么是伪静态？伪静态有何作用?</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 13.html" title="为什么企业要建多国语言网站？">为什么企业要建多国语言网站？</a>
+							<span>10-01</span>
+						</li>
+						<li>
+							<a href="seoOptimize/navstext/index - 5.html" title="企业用网站进行网络宣传的优势">企业用网站进行网络宣传的优势</a>
+							<span>10-01</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- SEO教程结束 -->
+
+		<!-- 底部开始 -->
+		<div class="wow foot-box upward" data-wow-offset="200">
+			<div class="footer">
+				<div class="footer-left">
+					<div class="code">
+						<img src="img/ma.png" />
+					</div>
+					<ul>
+						<h4>快速导航</h4>
+						<li><a href="index.html" title="解决方案">首页</a></li>
+						<li><a href="seoServer/index.html" title="SEO服务">SEO服务</a></li>
+						<li><a href="marketing/index.html" title="网络营销">网络营销</a></li>
+						<li><a href="seoOptimize/index.html" title="SEO优化">SEO优化</a></li>
+						<li><a href="construction/index.html" title="网站建设">网站建设</a></li>
+						<li><a href="about/index.html" title="关于创云">关于创云</a></li>
+						<li><a href="relation/index.html" title="联系我们">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="footer-center">
+					<h4>友情链接</h4>
+				</div>
+				<div class="footer-right">
+					<h4>联系方式</h4>
+					<p>
+						<span>地址：</span>北京市海淀区农大南路88号万霖大厦中关村E谷<br />
+						<span>电话：</span>18600796810<br />
+						<span>网址：</span>http://www.91yundao.com<br />
+						<span>邮箱：</span>asking@91yundao.com
+					</p>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2016-2046 www.91yundao.com 云创工作室 京ICP备17036368号</p>
+			</div>
+		</div>
+
+		<!-- 底部结束 -->
+	</body>
+	<script src="js/jquery-1.11.3.min%20.js"></script>
+	<script src="js/nav.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script>
+		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+			new WOW().init();
+		};
+	</script>
+
+</html>
