@@ -1,0 +1,57 @@
+[{
+		"title_h2":"B2B服务",
+		"title_span":"B2B SERVICE",
+		"label_p":"B2B服务",
+		"label_span":"01",
+		"item_nav":["IT物流","手机通讯物流","精密仪器物流","备件物流","汽车配件物流","电商入仓服务","鞋服物流","金融质押服务"],
+		"item_bg":"url(img/home/v1.jpg) no-repeat center center"
+	},
+	{
+		"title_h2":"B2C服务",
+		"title_span":"B2C SERVICE",
+		"label_p":"B2C服务",
+		"label_span":"02",
+		"item_nav":["仓储管理","配送管理","系统服务","菜鸟服务"],
+		"item_bg":"url(img/home/v2.jpg) no-repeat center center"
+	},
+	{
+		"title_h2":"电商综合服务",
+		"title_span":"E-COMMERCE SERVICE",
+		"label_p":"电商综合服务",
+		"label_span":"03",
+		"item_nav":["数据营销","技术驱动","财经运营","客户服务"],
+		"item_bg":"url(img/home/v3.jpg) no-repeat center center"
+	},
+	{
+		"title_h2":"大数据服务",
+		"title_span":"BIG DATA SERVICE",
+		"label_p":"大数据服务",
+		"label_span":"04",
+		"item_nav":["KingKooDate","订单管理","仓储管理","运配管理","电子签单","核算管理","行业解决方案"],
+		"item_bg":"url(img/home/v4.jpg) no-repeat center center"
+	},
+	{
+		"title_h2":"智能科技",
+		"title_span":"INTELLIGENT TECHNOLOGY SERVICE",
+		"label_p":"智能科技",
+		"label_span":"05",
+		"item_nav":["人机共舞","捷运宝"],
+		"item_bg":"url(img/home/v2.jpg) no-repeat center center"
+	},
+	{
+		"title_h2":"进出口服务",
+		"title_span":"IMPORT & EXPORT SERVICE",
+		"label_p":"进出口服务",
+		"label_span":"06",
+		"item_nav":["进出口服务"],
+		"item_bg":"url(img/home/v5.jpg) no-repeat center center"
+	},
+	{
+		"title_h2":"海外服务",
+		"title_span":"OVERSEAS SERVICE",
+		"label_p":"海外服务",
+		"label_span":"07",
+		"item_nav":["海外服务"],
+		"item_bg":"url(img/home/v6.jpg) no-repeat center center"
+	}
+]
