@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0
+}
+/* 去掉列表前的默认样式 */
+dd,dl,dt,li,ul {
+	list-style: none;
+}
+fieldset,iframe,img {
+	border: 0;
+	vertical-align: bottom
+}
+/* 让表格的边框线实现2合一 */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+article,aside,figure,footer,header,hgroup,nav,section,video {
+	display: block;
+}
+/* 去掉超链接自带的下划线 */
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/* 去掉文本框上自带的蓝色外轮廓 */
+input,select {
+	outline: none;
+}
+/* 2、浮动元素末尾添加块元素，添加clear:both; */
+.clear{
+	clear:both;
+}
+/* 3、清除浮动 */
+/* 在元素内部的末尾创建元素 */
+.clearfix::after{
+/* content:url(../../images/img3.jpg); */
+	content: '.';	/*创建出来的元素内容*/
+	display:block;		/*转化块元素*/
+	clear:both;
+	height:0;
+	line-height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+/*单行文本末尾显示省略号*/
+.ellipsis {
+	white-space: nowrap;  /*空白不换行*/
+	overflow: hidden;		/*溢出隐藏*/
+	text-overflow: ellipsis;	/*超出文本转为省略号*/
+}
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+.none{
+	display:none;
+}
